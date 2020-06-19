@@ -2,7 +2,6 @@ SELECT
 	u.name AS ユーザー名
 ,	p.created_at AS 投稿日時
 ,	c.name AS チャットルーム名
-,	u.id
 FROM
 	posts p
 INNER JOIN
