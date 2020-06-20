@@ -16,7 +16,7 @@ CREATE TABLE chatrooms(
     id INTEGER(11) NOT NULL AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
     description VARCHAR(1000),
-    is_allow_file_trasmission TINYINT(1) DEFAULT 1 NOT NULL,
+    is_allow_file_transmission TINYINT(1) DEFAULT 1 NOT NULL,
     is_direct_chat TINYINT(1) DEFAULT 0 NOT NULL,
     is_deleted TINYINT(1) DEFAULT 0 NOT NULL,
     created_at DATETIME NOT NULL,
